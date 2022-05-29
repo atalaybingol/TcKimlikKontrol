@@ -12,7 +12,7 @@
     <body>
         <h1>
             <% out.println("Merhaba JSP");%>
-            <jsp:useBean id="ilkCekirdek" scope="session" class="veri.TcKimlik" />
+            <jsp:useBean id="ilkCekirdek" scope="session" class="TcKimlik" />
             <jsp:setProperty name="ilkCekirdek" property="tcKimlikNo" />
             <jsp:getProperty name="ilkCekirdek" property="tcKimlikNo" />
 
