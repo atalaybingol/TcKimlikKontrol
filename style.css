@@ -1,0 +1,27 @@
+body{
+    background-color: antiquewhite;
+}
+
+.form{
+    margin-left: 40%;
+    margin-top: 13%;
+}
+
+.form input{
+    width: 320px; 
+    border: 1px solid #999999; 
+    padding: 5px;
+    font-size: x-large;
+    display: inline;
+}
+
+.form label{
+    font-size:x-large;
+}
+
+.form label input{ 
+    margin-top: 3px;
+    width: 332px;
+    display: flex;
+    justify-content: center;
+}
